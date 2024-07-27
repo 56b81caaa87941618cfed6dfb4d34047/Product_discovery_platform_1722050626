@@ -17,6 +17,18 @@ Vue.component("simple_hero_component_1722050628", {
                     </div>
                 </div>
             </nav>
+            <nav class="bg-white shadow-md dark:bg-gray-800">
+                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                    <a href="#" class="flex items-center">
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Logo</span>
+                    </a>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Contact Us</a>
+                    </div>
+                </div>
+            </nav>
             <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1">
                 <div id="hero-container" class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
                     <div id="hero-text-container" class="mr-auto place-self-center lg:col-span-7">
